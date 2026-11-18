@@ -38,7 +38,7 @@ Three facts shape everything in this guide:
 Before building, spend twenty minutes dissecting the brief. Ask these questions and write the answers down:
 
 - **What is the one-sentence fantasy?** "Make GTA 6", "make the best chess game", "make a tower defense" — the fantasy is the game. If you cannot state it in one sentence, your game will wander.
-- **What does "playable" mean here?** Usually: it loads in a browser, the controls respond immediately, there is a clear goal, and the game can be won or lost. Anything that blocks that chain — a broken start button, a missing asset, a crash on the second level — is fatal.
+- **What does "playable" mean here?** Usually: it loads in a browser, the controls respond immediately, there is a clear goal, and the game can be won or lost. Anything that blocks that chain — a broken start button, a missing asset, a crash on the second level — is fatal. When in doubt, ask yourself: could a stranger open this, play for one minute, and tell a friend what the goal is? If not, the game is not playable yet, no matter how much code is behind it.
 - **What is being scored?** Fun and polish almost always outweigh raw scope. A small game with tight controls, readable feedback, and one clever mechanic beats a sprawling game with ten half-finished systems.
 - **What are the hard requirements?** Some bounties demand a specific stack, a README, a screenshot, or a recording of the build. Treat each one as a gate, not a suggestion.
 
@@ -70,6 +70,10 @@ Pick one mechanic and polish it. A racing game with one good track and tight han
 ### Test the way a stranger would
 
 Play your game once without touching the code, on a fresh browser profile, exactly as a judge would: clone the repo, open the game, and play. Fix whatever confuses you, because it will confuse the judge more. Then ask one friend to play while you watch silently. Every time they hesitate, that is a bug in your onboarding, not a failure of their intelligence.
+
+### Keep a build diary while you work
+
+Write down each decision as you make it — what you cut, what you kept, and why. That diary becomes your README's story and your proof of work if the bounty asks how the entry was built. A judge trusts an entry with a visible trail of decisions far more than one that appears out of nowhere.
 
 ## How to enter a bounty on make.fun
 
